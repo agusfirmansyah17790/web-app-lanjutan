@@ -1,3 +1,8 @@
+@extends("tema.master")
+@section('title')
+ Testing Tema
+@endsection
+@section('content')
 <html>
 <head>
 <title>AGUS FIRMANSYAH</title>
@@ -7,3 +12,4 @@
     <p>nama saya agus firmansyah</p>
 </body>
 </html>
+@endsection

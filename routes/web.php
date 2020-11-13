@@ -65,4 +65,5 @@ Route::get('/test9/view9', [AboutController::class, "test9"]);
 
 Route::get('/test10/view10', [AboutController::class, "test10"]);
 
+Route::get("/tema/bootstrap", [HomeController::class, "index"]);
 

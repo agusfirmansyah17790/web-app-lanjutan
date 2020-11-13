@@ -28,4 +28,9 @@ class HomeController extends Controller
         return view("view-5");
     }
 
+    public function index()
+    {
+        return view("test-tema"); // view dengan template
+    }
+    
 }
